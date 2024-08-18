@@ -1,0 +1,130 @@
+body{
+    background-color: #2a2727;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: #ffda2c;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+    color: green;
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 2rem;
+    color: black;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2.5rem;
+    margin: 70px 0 ;
+    /* border: solid red 2px; */
+}
+.rightsection{
+    /* border: solid red 2px; */
+}
+.rightsection img{
+    border-right: solid #ffda2c 6px;
+    /*border-bottom: solid #fafa00 2px;*/
+    width: 80%;
+    margin: 20px 0;
+    /*padding-bottom: 10px;*/
+}
+.purple{
+    color: #fafa00;
+}
+#element{
+    color: #45da0e;
+}
+.secondsectn{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsectn h1{
+    font-size: 2rem;
+    /*border: solid red 2px;*/
+}
+.education{
+    display: flex;
+    width: auto;
+    /*border: solid red 2px;*/
+}
+.bit{
+    font-size: 1.3rem ;
+    /*text-decoration: none;*/
+    margin: 3px;
+    padding-top: 20px;
+    /*border: solid red 2px;*/
+    padding-left: 90px;
+}
+.bit a{
+    text-decoration: none;
+    color: white;
+}
+.bit a:hover{
+    text-decoration: none;
+    color: green;
+}
+.bit a:checked{
+    color: green;
+}
+.bitabt{
+    font-size: 1.1rem ;
+    /*padding-left: 25px;*/
+    padding-top: 10px;
+    color: #ffda2c;
+}
+.iit{
+    font-size: 1.3rem ;
+    margin: 3px;
+    padding-top: 20px;
+    padding-left: 90px;
+    /*border-left: solid red 2px;*/
+}
+.iitabt{
+    font-size: 1.1rem ;
+    /*padding-left: 25px;*/
+    padding-top: 10px;
+
+    color: #ffda2c;
+}
+#imig{
+    display: block;
+}
